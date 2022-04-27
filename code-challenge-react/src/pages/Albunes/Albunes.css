@@ -1,0 +1,25 @@
+.CP-Albunes {
+  width: 100%;
+  min-height: 100vh;
+  padding-bottom: 80px;
+}
+.CP-User-Albunes {
+  width: 100%;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.CI-Show-Albums {
+  cursor: pointer;
+  text-decoration: none;
+}
+.CI-Show-Albums p {
+  transition: all 0.5s ease-in-out;
+}
+.CI-Show-Albums:hover p {
+  transform: scale(1.1, 1.1);
+  transition: all 0.5s ease-in-out;
+}

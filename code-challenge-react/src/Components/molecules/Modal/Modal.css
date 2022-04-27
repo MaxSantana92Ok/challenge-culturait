@@ -1,0 +1,74 @@
+.CP-Modal {
+  width: 100%;
+  animation-name: fadeOutOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-out;
+  animation-duration: 0.2s;
+  display: none;
+  height: 100%;
+  min-height: 100vh;
+  background: rgba(26, 26, 26, 0.5);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+  position: fixed;
+  z-index: 1000;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.CP-Modal-Mostrar {
+  opacity: 1;
+  display: flex;
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 0.2s;
+}
+@keyframes fadeInOpacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadeOutOpacity {
+  100% {
+    opacity: 1;
+  }
+  0% {
+    opacity: 0;
+  }
+}
+.CI-Contenido-Modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.CI-Contenido-Modal::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+.CI-IconoCerrar {
+  position: absolute;
+  right: 10%;
+  top: 10%;
+  color: white;
+  cursor: pointer;
+}
+.iconoCerrar-Modal {
+  width: 35px;
+  height: 35px;
+  transition: all 0.3s ease-in-out;
+}
+.iconoCerrar-Modal:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+}
+.iconoCerrarPlasmar {
+  color: black;
+}

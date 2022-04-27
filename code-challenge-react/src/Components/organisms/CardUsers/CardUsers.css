@@ -1,0 +1,31 @@
+.CP-CardUsers {
+  width: 100%;
+  /* min-height: 280px; */
+  background-color: white;
+  border-radius: 10px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.CI-InfoPersonal-User {
+  margin-bottom: 10px;
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.domicilio-User {
+  margin-top: 10px;
+}
+@media screen and (min-width: 360px) {
+  .CI-InfoPersonal-User {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+  .domicilio-User {
+    margin-top: 0;
+  }
+}

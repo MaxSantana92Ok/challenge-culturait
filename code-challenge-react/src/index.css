@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --main-primary-bg-color: rgb(255, 255, 255);
+  --main-secondary-bg-color: #13293d;
+  --main-primary-color: #13293d;
+}
+.primary-color {
+  color: #034078;
+}
+.primary-color-light {
+  color: #00b1c9;
+}
+.secondary-color {
+  color: rgb(102, 102, 102);
+}
+
+.element-shadow {
+  box-shadow: 0px 5px 10px -2px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 5px 10px -2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 5px 10px -2px rgba(0, 0, 0, 0.75);
+}
+.Layaout-Item {
+  width: 100%;
+  min-height: 100vh;
+  padding-top: 80px;
+}
+
+@font-face {
+  font-family: 'Oswald-Bold';
+  src: url(/src/static/Oswald-Bold.ttf);
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Oswald-Regular';
+  src: url(/src/static/Oswald-Regular.ttf);
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Oswald-Medium';
+  src: url(/src/static/Oswald-Medium.ttf);
+  font-style: normal;
+}
+h2 {
+  font-family: 'Oswald-Bold';
+  margin-bottom: 15px;
+}
+h4,
+h3 {
+  font-family: 'Oswald-Medium';
+}
+p {
+  font-family: 'Oswald-Regular';
+}

@@ -1,0 +1,26 @@
+.CP-Home {
+  width: 100%;
+  min-height: 100vh;
+  padding-bottom: 100px;
+}
+.CI-Avatar-Home {
+  width: 100%;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+.CI-Avatar-Home:hover {
+  transition: all 0.5s ease-in-out;
+  transform: scale(0.9);
+}
+/* .CI-Avatar-Home {
+  width: 100%;
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  overflow-x: scroll;
+  padding-left: 250px;
+}
+.CI-Avatar-Home::-webkit-scrollbar {
+  height: 0;
+} */

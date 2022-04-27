@@ -1,0 +1,26 @@
+.CP-CardAlbums {
+  width: 100%;
+  height: 200px;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+.icon-Image-CardAlbum {
+  width: 100%;
+  font-size: 80px;
+  color: grey;
+}
+.CP-CardAlbums:hover {
+  transform: scale(0.9);
+  transition: all 0.5s ease-in-out;
+
+  border: 1px solid #034078;
+}
+.NavLinks-CardAlbum {
+  text-decoration: none;
+}

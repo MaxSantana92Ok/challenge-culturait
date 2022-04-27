@@ -1,0 +1,28 @@
+.CP-loading-Comentarios {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.icon-Error-Comentarios {
+  font-size: 60px;
+  margin-bottom: 15px;
+}
+
+.CP-Comentarios {
+  min-height: 100vh;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.CP-Comentarios-Post {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-bottom: 0.1px solid grey;
+}
+
+.CP-Comentarios-Post p {
+  margin-bottom: 5px;
+}
